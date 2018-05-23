@@ -15,12 +15,8 @@ function divide(a, b) {
 }
 
 function inc(n) {
-  return ++n
+  return n += 1
 
 function dec(n) {
-  return --n
-}
-
-function makeInt(n) {
-  parseInt(n, 10)
+  return n -= 1
 }
